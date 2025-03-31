@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
-  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+        content="A benchmark platform for automatic assessment of LLM truth maintenance.">
+  <meta name="keywords" content="LLM Truth Maintenance, AutoEval">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nerfies: Deformable Neural Radiance Fields</title>
+  <title>AutoEval: Autonomous Assessment of LLM Truth Maintenance in Formal Translation and Reasoning Tasks</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -52,13 +52,13 @@
   </div>
   <div class="navbar-menu">
     <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://keunhong.com">
+      <a class="navbar-item" href="https://aair-lab.github.io">
       <span class="icon">
           <i class="fas fa-home"></i>
       </span>
       </a>
 
-      <div class="navbar-item has-dropdown is-hoverable">
+      <!-- <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
           More Research
         </a>
@@ -74,7 +74,7 @@
           </a>
           <a class="navbar-item" href="https://photoshape.github.io">
             PhotoShape
-          </a>
+          </a> -->
         </div>
       </div>
     </div>
@@ -88,8 +88,8 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Nerfies: Deformable Neural Radiance Fields</h1>
-          <div class="is-size-5 publication-authors">
+          <h1 class="title is-1 publication-title">AutoEval: Autonomous Assessment of LLM Truth Maintenance in Formal Translation and Reasoning Tasks</h1>
+          <!-- <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://keunhong.com">Keunhong Park</a><sup>1</sup>,</span>
             <span class="author-block">
@@ -109,16 +109,19 @@
             <span class="author-block">
               <a href="http://www.ricardomartinbrualla.com">Ricardo Martin-Brualla</a><sup>2</sup>
             </span>
-          </div>
+          </div> -->
 
+          <!--
           <div class="is-size-5 publication-authors">
             <span class="author-block"><sup>1</sup>University of Washington,</span>
             <span class="author-block"><sup>2</sup>Google Research</span>
           </div>
+          -->
 
+         
           <div class="column has-text-centered">
             <div class="publication-links">
-              <!-- PDF Link. -->
+              <!-- PDF Link. 
               <span class="link-block">
                 <a href="https://arxiv.org/pdf/2011.12948"
                    class="external-link button is-normal is-rounded is-dark">
@@ -137,7 +140,7 @@
                   <span>arXiv</span>
                 </a>
               </span>
-              <!-- Video Link. -->
+              <!-- Video Link. 
               <span class="link-block">
                 <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
                    class="external-link button is-normal is-rounded is-dark">
@@ -147,7 +150,7 @@
                   <span>Video</span>
                 </a>
               </span>
-              <!-- Code Link. -->
+              <!-- Code Link. 
               <span class="link-block">
                 <a href="https://github.com/google/nerfies"
                    class="external-link button is-normal is-rounded is-dark">
@@ -157,7 +160,7 @@
                   <span>Code</span>
                   </a>
               </span>
-              <!-- Dataset Link. -->
+              <!-- Dataset Link. 
               <span class="link-block">
                 <a href="https://github.com/google/nerfies/releases/tag/0.1"
                    class="external-link button is-normal is-rounded is-dark">
@@ -165,7 +168,7 @@
                       <i class="far fa-images"></i>
                   </span>
                   <span>Data</span>
-                  </a>
+                  </a>-->
             </div>
 
           </div>
@@ -175,6 +178,7 @@
   </div>
 </section>
 
+<!--
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
@@ -190,8 +194,9 @@
     </div>
   </div>
 </section>
+-->
 
-
+<!--
 <section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
@@ -248,7 +253,7 @@
     </div>
   </div>
 </section>
-
+-->
 
 <section class="section">
   <div class="container is-max-desktop">
@@ -258,9 +263,10 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
+            We present an autonomous framework for generating o.o.d. data and evaluating
+            LLM capabilities in preserving truth across translation
           </p>
+          <!--
           <p>
             Our approach augments neural radiance fields
             (NeRF) by optimizing an
@@ -284,12 +290,13 @@
             reconstructs non-rigidly deforming scenes and reproduces unseen views with high
             fidelity.
           </p>
+          -->
         </div>
       </div>
     </div>
     <!--/ Abstract. -->
 
-    <!-- Paper video. -->
+    <!-- Paper video.
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
@@ -309,7 +316,7 @@
 
     <div class="columns is-centered">
 
-      <!-- Visual Effects. -->
+      <!-- Visual Effects. 
       <div class="column">
         <div class="content">
           <h2 class="title is-3">Visual Effects</h2>
@@ -325,7 +332,7 @@
       </div>
       <!--/ Visual Effects. -->
 
-      <!-- Matting. -->
+      <!-- Matting. 
       <div class="column">
         <h2 class="title is-3">Matting</h2>
         <div class="columns is-centered">
@@ -345,12 +352,12 @@
     </div>
     <!--/ Matting. -->
 
-    <!-- Animation. -->
+    <!-- Animation. 
     <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Animation</h2>
 
-        <!-- Interpolating. -->
+        <!-- Interpolating. 
         <h3 class="title is-4">Interpolating states</h3>
         <div class="content has-text-justified">
           <p>
@@ -384,7 +391,7 @@
         <br/>
         <!--/ Interpolating. -->
 
-        <!-- Re-rendering. -->
+        <!-- Re-rendering. 
         <h3 class="title is-4">Re-rendering the input video</h3>
         <div class="content has-text-justified">
           <p>
@@ -410,7 +417,7 @@
     <!--/ Animation. -->
 
 
-    <!-- Concurrent Work. -->
+    <!-- Concurrent Work. 
     <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Related Links</h2>
@@ -441,6 +448,7 @@
 </section>
 
 
+<!--
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
@@ -452,7 +460,7 @@
 }</code></pre>
   </div>
 </section>
-
+-->
 
 <footer class="footer">
   <div class="container">
